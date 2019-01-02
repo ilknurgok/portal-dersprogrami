@@ -7,16 +7,17 @@ use yii\grid\GridView;
 /* @var $searchModel backend\models\DersSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Ders';
+$this->title = 'Ders Programı';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="ders-index">
-
+ 
     <h1><?= Html::encode($this->title) ?></h1>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
      <p>
         <?= Html::a('Create Ders', ['create'], ['class' => 'btn btn-success']) ?>
+        Tablo Adı:derspro
     </p>
 
     <?= GridView::widget([
